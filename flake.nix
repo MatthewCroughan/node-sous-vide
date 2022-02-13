@@ -25,7 +25,10 @@
       dream2nix = inputs.dream2nix.lib.init {
         systems = supportedSystems;
         config = {
-          overridesDirs = [ "${inputs.dream2nix}/overrides" ];
+          overridesDirs = [
+            "${inputs.dream2nix}/overrides"
+            ./dream2nix-overrides
+          ];
         };
       };
     in
