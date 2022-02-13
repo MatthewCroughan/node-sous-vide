@@ -3,3 +3,4 @@ lib
 node_modules
 src/proto/messages.d.ts
 src/proto/messages.js
+*result*
